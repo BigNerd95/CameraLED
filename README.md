@@ -55,7 +55,7 @@ led.state()
 ```
 
 # Photos
-LED OFF = NO IR filter  
+LED OFF = NO IR filter = Night vision  
 ![image](doc/led_off.jpg)  
-LED ON = IR filter  
+LED ON = IR filter = Daily vision  
 ![image](doc/led_on.jpg)  
