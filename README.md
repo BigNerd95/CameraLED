@@ -8,6 +8,12 @@ They provide a [precompiled library](http://www.arducam.com/downloads/modules/Ra
 So i decided to write my own pure python library to control the camera LED (and IR filter) on Raspberry 3.  
 My library does exactly what their precompiled library does.  
 
+# Prereqs
+You have to disable the automatic management of camera led in `/boot/config.txt`.  
+```bash
+$ sudo echo "disable_camera_led=1" >> /boot/config.txt
+$ reboot
+```
 # Usage
 You need to be root (or at least be able to use sudo).
 ### Standalone
@@ -39,5 +45,5 @@ led = CameraLED() # CameraLED(134)
 led.on()
 led.off()
 led.toggle()
-led.status()
+led.state()
 ```
