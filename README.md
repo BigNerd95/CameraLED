@@ -4,7 +4,7 @@ Pure python3 library to control Camera LED for RaspberryPi 3
 # Background
 I bought an [ArduCAM](http://www.arducam.com/) with motorized IR Cut Filter.  
 The IR Cur filter is connected to the camera LED, so by controlling the LED you can control the IR filter.  
-They provide a [precompiled library](http://www.arducam.com/downloads/modules/RaspberryPi_camera/piCamLed.zip) to control the LED but it wasn't working form me.  
+They provide a [precompiled library](http://www.arducam.com/downloads/modules/RaspberryPi_camera/piCamLed.zip) to control the LED but it wasn't working for me.  
 So i decided to write my own pure python library to control the camera LED (and IR filter) on Raspberry 3.  
 My library does exactly what their precompiled library does.  
 
@@ -53,3 +53,9 @@ led.off()
 led.toggle()
 led.state()
 ```
+
+# Photos
+LED OFF = NO IR filter  
+![image](doc/led_off.jpg)  
+LED ON = IR filter  
+![image](doc/led_on.jpg)  
