@@ -12,7 +12,7 @@ My library does exactly what their precompiled library does.
 You have to disable the automatic management of camera led in `/boot/config.txt`.  
 ```bash
 $ sudo echo "disable_camera_led=1" >> /boot/config.txt
-$ reboot
+$ sudo reboot
 ```
 # Installation
 ```bash
