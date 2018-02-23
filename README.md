@@ -1,5 +1,6 @@
 # CameraLED
-Pure python3 library to control Camera LED for RaspberryPi 3
+Pure python library to control Camera LED for RaspberryPi 3  
+It is compatible with both python2 and python3  
 
 # Background
 I bought an [ArduCAM](http://www.arducam.com/) with motorized IR Cut Filter.  
